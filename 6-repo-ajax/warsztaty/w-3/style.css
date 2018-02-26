@@ -1,0 +1,13 @@
+body {
+    margin: 0;
+}
+
+#kontener {
+	height: 210vh;
+    width: 100%;
+    background-color: antiquewhite;
+    
+    margin: 0;
+    padding: 0;
+}
+

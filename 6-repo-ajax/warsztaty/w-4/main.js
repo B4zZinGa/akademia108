@@ -1,0 +1,54 @@
+'use strict';
+
+function porownanie () {
+
+var buyArrow = $('#buy-arrow');
+var currentBuyPrice = parseFloat($('#buy').html());
+
+var sellArrow = $('#sell-arrow');
+var currentSellPrice = parseFloat($('#sell').html());
+
+
+$.getJSON('https://blockchain.info/pl/ticker', function (data) {
+    console.log(data.PLN.buy);
+    console.log(data.PLN.sell);
+
+    $('#buy').html('  ' + data.PLN.buy + ' ' + data.PLN.symbol);
+    $('#sell').html('  ' + data.PLN.sell + ' ' + data.PLN.symbol);
+
+    if (currentBuyPrice > parseFloat(data.PLN.buy)) {
+        buyArrow.removeAttr('class').addClass('fa fa-arrow-down');
+    } else if (currentBuyPrice < parseFloat(data.PLN.buy)) {
+        buyArrow.removeAttr('class').addClass('fa fa-arrow-up');
+    } else {
+        buyArrow.removeAttr('class').addClass('fa fa-minus-square-o');
+    }
+
+    if (currentSellPrice > parseFloat(data.PLN.sell)) {
+        sellArrow.removeAttr('class').addClass('fa fa-arrow-down');
+    } else if (currentBuyPrice < parseFloat(data.PLN.sell)) {
+        sellArrow.removeAttr('class').addClass('fa fa-arrow-up');
+    } else {
+        sellArrow.removeAttr('class').addClass('fa fa-minus-square-o');
+    }
+
+});
+
+    console.log('odświeżono');
+    
+}
+
+porownanie();
+
+
+
+setInterval(porownanie, 5000);
+
+$('#5sec').on('click', clearInterval());
+
+
+
+
+
+
+
