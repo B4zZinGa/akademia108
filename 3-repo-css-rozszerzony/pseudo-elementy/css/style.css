@@ -1,0 +1,17 @@
+div > p#p1::before {
+    content: "przed elementem";
+    color: red;
+}
+
+div p#p2::after {
+    content: " po elemencie";
+    color: blue;
+}
+
+div > p#p3::first-letter {
+    color: pink;
+}
+div > p#p4::first-line {
+    color: brown
+}
+

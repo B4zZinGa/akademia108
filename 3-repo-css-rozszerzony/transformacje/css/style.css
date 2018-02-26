@@ -1,0 +1,15 @@
+figure {
+    margin: 40px auto;
+    width: 400px;
+}
+
+figure img {
+    width: 100%;
+    transition: all 2s;
+    transform-origin: 15% 25%;
+}
+
+.rotate img:hover {
+    transform: rotate(2000deg) scale(.5);
+    
+}

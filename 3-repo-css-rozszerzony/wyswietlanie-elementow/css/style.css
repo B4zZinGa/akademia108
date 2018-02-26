@@ -1,0 +1,25 @@
+#p1 {
+	background-color: blue;
+}
+
+#p2 {
+    background-color: firebrick;
+}
+
+div#elementy-blokowe > p {
+    display: inline;
+}
+
+div#elementy-inline-block > ul {
+    text-align: center;
+}
+
+
+div#elementy-inline-block > ul li {
+    background-color: orange;
+    display: inline-block;
+    width: 80px;
+    height: 80px;
+
+    
+}

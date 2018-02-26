@@ -1,0 +1,36 @@
+body {
+    background-color: beige;
+}
+
+p {
+    background-color: lightgray;
+    color: darkblue;
+}
+
+#selektor-po-id {
+	color: yellow;
+}
+
+.selektor-po-klasie {
+	color: purple;
+}
+
+#moniki p {
+    color: darkgreen;
+}
+
+#moniki > p{
+	color: mediumvioletred;
+}
+
+#moniki > div > p {
+	color: lightcoral;
+}
+
+p#selektor-po-id ~ p {
+	color: firebrick
+}
+
+p#selektor-po-id + p {
+	color: magenta
+}

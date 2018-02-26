@@ -1,0 +1,33 @@
+body {
+    background-image: url(https://wallpaperscraft.com/image/black_background_pattern_light_texture_55291_1920x1200.jpg)
+}
+
+h1 {
+    color: white;
+}
+
+div {
+    width: 300px;
+    height: 30px;
+    margin: 15px;
+}
+
+#predefiniowane {
+    background-color: lightblue;
+}
+
+#hexadecymalne {
+    background-color: #67ab22;
+}
+
+#skrocony-hex {
+    background-color: #f23;
+}
+
+#rgb {
+    background-color: rgb(200,150,50)
+}
+
+#rgba {
+    background-color: rgba(10 , 40 , 150 , 1)
+}

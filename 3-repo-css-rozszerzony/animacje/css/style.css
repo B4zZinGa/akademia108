@@ -1,0 +1,114 @@
+/*
+figure {
+    margin: 40px auto;
+    width: 400px;
+    
+    animation-name: width;
+    animation-duration: 3s;
+    animation-iteration-count: 3;
+}
+
+figure img {
+    width: 100%;
+    transition: all 3s;
+}
+*/
+
+
+/*
+@keyframes width {
+    0% {
+        width: 400px;
+    }
+    100% {
+        width: 650px;
+    }
+}
+*/
+
+
+
+/*
+@keyframes width {
+    0% {
+        width: 400px;
+    }
+    40% {
+        width: 650px;
+    }
+    60% {
+        width: 650px;
+    }
+    100% {
+        width: 400px;
+    }
+}
+*/
+
+/*
+@keyframes width {
+    0%, 100% {
+        width: 400px;
+    }
+    40%, 60% {
+        width: 650px;
+    }
+   
+}*/
+
+/*-------------------------------------*/
+
+
+/*
+@keyframes koloruj {
+    0% {
+        background-color: white;
+    }
+    25% {
+        background-color: yellow;
+    }
+    50% {
+        background-color: orange;
+    }
+    75% {
+        background-color: orangered;
+    }
+    100% {
+        background-color: red;
+    }
+}
+
+body {
+    animation-name: koloruj;
+    animation-duration: 10s;
+    animation-iteration-count: 1;
+    animation-delay: 2s;
+    animation-fill-mode: both;
+}*/
+
+
+@keyframes koloruj {
+    0% {
+        background-image: url(https://world.intimissimi.com/clz_assets/int/images/cms/CONTENT/ITALIANO/switch-box-stylebook-dreaming-in-bellagio-01-autumn17.jpg);
+    }
+    25% {
+        background-image: url(http://i.iplsc.com/intimissimi/0003UBKTN14I7J4X-C122-F4.jpg);
+    }
+    50% {
+        background-color: orange;
+    }
+    75% {
+        background-color: orangered;
+    }
+    100% {
+        background-color: red;
+    }
+}
+
+body {
+    animation-name: koloruj;
+    animation-duration: 10s;
+    animation-iteration-count: 1;
+    animation-delay: 2s;
+    animation-fill-mode: both;
+}

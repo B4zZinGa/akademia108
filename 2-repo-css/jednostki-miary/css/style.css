@@ -1,0 +1,58 @@
+html {
+    font-size: 20px;
+}
+
+#kontener {
+    font-size: 30px;
+}
+
+#kontener > div {
+	background-color: darkred;
+    margin-bottom: 15px;
+    color: white
+}
+
+#pixele {
+    width: 400px;
+}
+
+body {
+    background-image: url(https://wallpaperscraft.com/image/board_black_line_texture_background_wood_55220_2560x1600.jpg);
+}
+
+h1 {
+    color: aliceblue;
+}
+
+div#em {
+    width: 20em;
+}
+
+div#ex {
+    width: 20ex;
+}
+
+div#rem {
+    width: 20rem;
+}
+
+div#procenty {
+    width: 50%;
+}
+
+div#vw {
+    width: 60vw;
+}
+
+div#vh {
+    width: 60vh;
+}
+
+div#vmin {
+    width: 40vmin;
+}
+
+div#vmax {
+    width: 60vmax;
+}
+

@@ -1,0 +1,41 @@
+.div-items {
+    position: relative;
+    border: 1px solid black;
+    padding: 30px;
+    width: 600px;
+    height: 300px;
+}
+
+.div-items .item {
+    width: 70px;
+    height: 70px;
+    position: absolute;
+}
+
+.div-items .item-1 {
+    background-color: black;
+    left: 0;
+    top: 0;
+    height: 100%;
+    width: 120px;
+}
+
+
+.div-items .item-2 {
+    background-color: aqua;
+    right: 0;
+    bottom: 0;
+    width: 50%;
+    height: 20%;
+}
+
+
+.div-items .item-3 {
+    background-color: orange;
+    top: 0;
+    left: 50%;
+    width: 20%;
+    height: 20%;
+    transform: translateX(-50%)
+    
+}

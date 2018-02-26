@@ -1,0 +1,31 @@
+a {
+    font-size: 30px;
+}
+
+a#link-1:link {
+    color: green;
+}
+a:visited {
+    color: orange;
+}
+a#link-3:hover {
+    font-size: 100px;
+    
+    transform: rotate(7deg);
+}
+
+div.tabela > div.klient:first-child {
+    background-color: red;
+}
+
+div.tabela :last-child {
+    background-color: aqua;
+}
+
+div.tabela :nth-child(5) {
+    background-color: orange;
+}
+
+div.tabela :nth-child(5n + 4) {
+    background-color: forestgreen;
+}

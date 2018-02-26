@@ -1,0 +1,418 @@
+* {
+    box-sizing: border-box;
+}
+
+/*OVERALL*/
+
+html {
+    font-family: lato, roboto;
+    font-size: 14px;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    font-size: 0;
+}
+
+span {
+    color: lime;
+
+}
+
+/*OVERALL END*/
+
+/*    NAVIGATION START    */
+
+nav {
+    background-color: rgba(0, 0, 0, 0.3);
+    position: fixed;
+    width: 100%;
+}
+
+nav > ul {
+    margin: 0;
+    list-style: none;
+    text-align: right;
+}
+
+ul > li {
+    display: inline-block;
+    margin: 6px;
+    font-size: 2rem;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+}
+
+nav a:hover {
+    color: lime;
+}
+
+/*NAVIGATION END*/
+
+/*SECTION NAME START */
+
+section#epilog {
+    width: 100%;
+    height: 100vh;
+    background: url(../img/header-background.jpg);
+
+}
+
+section#epilog > div {
+    position: relative;
+    top: 50%;
+    transform: translateY(-50%);
+    text-align: center;
+
+}
+
+h1 {
+    color: white;
+    margin: 0;
+    font-size: 5rem;
+}
+
+div#ep > p {
+    font-size: 3.5rem;
+    color: white;
+}
+
+/*SECTION NAME END*/
+
+/*SECTION ABOUT ME START*/
+
+section#about {
+    height: 50vh;
+    width: 100%;
+    display: inline-block;
+
+    box-shadow: 0px 1px 10px 0px rgba(80, 255, 62, 0.3);
+}
+
+h2 {
+    text-align: center;
+    font-size: 2.5rem;
+    margin-bottom: 1rem;
+    margin-top: 2rem;
+}
+
+section#about > figure {
+    background: url(../img/batman-derp_1.jpg);
+    height: 70%;
+    width: 45vw;
+    margin: 0;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+
+    display: inline-block;
+    position: relative;
+    float: left;
+}
+
+div#article {
+    right: 0;
+    width: 45vw;
+
+    font-size: 1.5rem;
+
+    display: inline-block;
+    text-align: justify;
+    text-align-last:
+}
+
+/*    SECTION ABOUT ME END    */
+
+/*    SECTION SKILLS START    */
+
+section#skills {
+    text-align: center;
+
+    box-shadow: 0px 1px 10px 0px rgba(80, 255, 62, 0.3);
+}
+
+h3 {
+    margin-top: 0;
+    padding-top: 2rem;
+    font-size: 2.5rem;
+}
+
+section#skills > p {
+    padding-left: 5vw;
+    padding-right: 5vw;
+    font-size: 1.5rem;
+}
+
+div#technologies {
+    height: 20vh;
+    width: 100%;
+}
+
+div#technologies > div {
+    height: 100px;
+    width: 100px;
+    display: inline-block;
+}
+div#technologies > div > div {
+    height: 100%;
+    width: 100%;
+    background-position: center top;
+    margin-top: 3vh;
+    margin-left: 5%;
+    margin-right: 5%;
+    margin-bottom: 3vh;
+}
+
+div#html5 {
+    background: url(../icons/html5.png);
+    background-repeat: no-repeat;
+}
+
+div#css3 {
+    background: url(../icons/css3.png);
+    background-repeat: no-repeat;
+}
+
+div#javascript {
+    background: url(../icons/js.png);
+    background-repeat: no-repeat;
+}
+
+div#jquery {
+    background: url(../icons/jquery.png);
+    background-repeat: no-repeat;
+}
+
+div#technologies p {
+    text-align: center;
+    padding: 0;
+    padding-bottom: 20px;
+    font-size: 1rem;
+    color: black;
+}
+
+/*    SECTION SKILLS END    */
+
+/*-------*/
+
+/*    SECTION PORTFOLIO START    */
+
+section#portfolio {
+    box-shadow: 0px 1px 10px 0px rgba(80, 255, 62, 0.3);
+}
+
+h4 {
+    font-size: 2.5rem;
+    margin: 0;
+    padding-top: 2rem;
+    text-align: center;
+    padding-bottom: 2rem;
+}
+
+div#galeria {
+    padding-left: 5vw;
+    padding-right: 5vw;
+}
+
+div#galeria > div {
+    display: inline-block;
+    text-align: center;
+    margin-bottom: 5rem;
+}
+
+div#foto1 {
+    background: url(../img/portfolio1.jpg);
+    height: 300px;
+    width: 33%;
+
+    background-position: center;
+    background-size: cover;
+    overflow: auto;
+
+}
+
+div#foto2 {
+    background: url(../img/portfolio2.jpg);
+    height: 300px;
+    width: 33%;
+
+    background-position: center;
+    background-size: cover;
+    overflow: auto;
+}
+
+div#foto3 {
+    background: url(../img/portfolio3.jpg);
+    height: 300px;
+    width: 33%;
+
+    background-position: center;
+    background-size: cover;
+    overflow: auto;
+}
+
+div#galeria > div > div {
+    margin: 0;
+}
+
+div.cover {
+    opacity: 0.0;
+
+    height: 100%;
+    width: 100%;
+    padding: 5px;
+
+    background-color: rgba(80, 255, 62, 0.5);
+}
+
+div.ramka {
+    width: 100%;
+    height: 100%;
+
+    text-align: center;
+    font-size: 1rem;
+    padding: 10px;
+
+    border: 1px solid white;
+    background-color: rgba(80, 255, 62, 0.25);
+    color: black;
+}
+
+div.ramka > p {
+    display: inline-block;
+    margin: 0;
+    padding-top: 40px;
+}
+
+div.cover:hover {
+    opacity: 1.0;
+}
+
+i {
+    padding-top: 30px;
+    color: black;
+    font-size: 20px;
+}
+
+/*    SECTION PORTFOLIO END    */
+
+/*-------------------*/
+
+/*    SECTION CONTACT START    */
+
+section#footer {
+    background-color: rgba(49, 88, 127, 1.0);
+    padding: 2rem;
+}
+
+div#contact {
+    display: inline-block;
+    width: 45%;
+    margin-left: 0;
+    top: 0;
+    vertical-align: top;
+}
+
+div#contact > h5 {
+    font-size: 2.5rem;
+    text-align: left;
+    color: white;
+
+    margin: 0px;
+    margin-bottom: 4rem;
+}
+
+div#contact > address {
+    font-size: 1.5rem;
+    color: white;
+    font-style: normal;
+}
+
+address > a {
+    color: lime;
+    text-decoration: underline;
+}
+
+figure#social-1 {}
+
+
+fieldset {
+    margin-top: 6rem;
+    display: inline-block;
+    width: 45%;
+    margin-right: 0;
+    border: 0px;
+}
+
+.form {
+    width: 100%;
+    background-color: rgba(74, 133, 191, 1.0);
+    color: lime;
+
+    margin: 10px;
+    padding: 3px;
+
+    border: 0px;
+    border-radius: 0px;
+
+    font-size: 1.5rem;
+}
+
+.form::placeholder {
+    color: darkgray;
+}
+
+input[type="submit"] {
+    margin: 10px;
+    padding: 5px;
+
+    border: 0px;
+
+    color: white;
+    font-size: 1.5rem;
+    background-color: limegreen;
+}
+
+div.border-icon {
+    width: 50px;
+    height: 50px;
+    margin-top: 30px;
+    margin-right: 20px;
+    text-align: center;
+
+    display: inline-block;
+    position: relative;
+    
+    border: 1px solid white;
+}
+
+div#social-icons i {
+    color: white;
+    font-size: 30px;
+    margin: 0;
+    padding: 0;
+    
+    position: absolute;
+    top: 50%;
+    transform: translate(-50%, -50%);
+}
+
+/*    SECTION CONTACT END    */
+
+div.copyrights {
+    background-color: black;
+    width: 100%;
+    opacity: .9;
+    height: auto;
+}
+
+body > div.copyrights > p {
+    font-size: 14px;
+    color: white;
+    margin: 0;
+    padding: 10px;
+}

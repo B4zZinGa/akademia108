@@ -1,0 +1,80 @@
+#img {
+    position: relative;
+    width: 60%;
+    margin: 0 auto;
+    padding: 5px;
+}
+
+#img > img {
+    width: 100%;
+    display: block;
+    box-sizing: border-box;
+    border: 5px solid white;
+}
+
+.text {
+    position: absolute;
+    top: 50%;
+    left: 0;
+    right: 0;
+    transform: translateY(-50%) scale(1, 0);
+
+    text-align: center;
+    padding: 10px;
+    background-color: rgba(0, 0, 0, .8);
+    color: white;
+}
+
+#img::before,
+#img::after {
+    content: '';
+    position: absolute;
+    z-index: -1;
+    left: 0;
+    right: 0;
+
+    height: 0px;
+
+    background-color: black;
+}
+
+#img::before {
+    top: 0;
+/*    border-bottom-color: transparent;*/
+}
+
+#img::after {
+    bottom: 0;
+/*    border-top-color: transparent;*/
+}
+
+#img:hover::before,
+#img:hover::after {
+    height: 50%;
+    transition: height .3s ease-out;
+}
+
+#img:hover .text {
+    transform: translateY(-50%) scale(1, 1);
+    transition: all .1s ease-out;
+    
+}
+
+
+/* XD dla beki */
+
+#img:hover > img {
+    animation: hue 5s infinite;
+}
+
+@keyframes hue {
+    0% {
+        filter: hue-rotate(0deg);
+    }
+    50% {
+        filter: hue-rotate(180deg);
+    }
+    100% {
+        filter: hue-rotate(360deg);
+    }
+}

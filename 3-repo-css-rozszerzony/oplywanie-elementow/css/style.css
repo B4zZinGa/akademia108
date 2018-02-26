@@ -1,0 +1,19 @@
+img#kanarek {
+    width: 10%;
+    height: 10%;
+    
+    float: left;
+}
+img#super {
+    width: 80%;
+    height: 80%;
+    float: right;
+}
+img#kanarek {
+    float: noe;
+}
+
+p:last-child {
+    background-color: blue;
+    clear: right;
+}
