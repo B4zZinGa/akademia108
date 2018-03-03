@@ -1,7 +1,1 @@
-1. Czy vw 100 to to samo co 100%? chodzi o scroll bara.
-
-2. Jak zrobiæ tekst na ramce, ukrywaj¹c j¹, jednoczeœnie nie niszcz¹æ t³a?
-
-
-
-
+1. stworzyæ pe³ne menu z krzysztofem jako szablon.

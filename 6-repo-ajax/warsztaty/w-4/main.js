@@ -42,10 +42,27 @@ porownanie();
 
 
 
-setInterval(porownanie, 5000);
+var czasOdswiezania = setInterval(porownanie, 5000);
+var czasOdswiezania15 = setInterval(porownanie, 5000);
+var czasOdswiezania1 = setInterval(porownanie, 5000);
+var czasOdswiezania1 = setInterval(porownanie, 5000);
 
-$('#5sec').on('click', clearInterval());
-
+$('#5sec').on('click', function(){
+   clearInterval(czasOdswiezania);
+    setInterval(porownanie, 5000);
+});
+$('#15sec').on('click', function(){
+   clearInterval(czasOdswiezania);
+    setInterval(porownanie, 15000);                   // to jeszcze nie działa
+});
+$('#30sec').on('click', function(){
+   clearInterval(czasOdswiezania);
+    setInterval(porownanie, 30000);
+});
+$('#60sec').on('click', function(){
+   clearInterval(czasOdswiezania);
+    setInterval(porownanie, 60000);
+});
 
 
 

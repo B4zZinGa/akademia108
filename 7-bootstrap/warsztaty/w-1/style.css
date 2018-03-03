@@ -1,0 +1,30 @@
+body {
+    font-family: 'RobotoSlab', sans-serif;
+}
+
+#logotyp {
+    font-family: Droid Serif, sans-serif;
+    color: white;
+}
+
+.navbar-expand-lg .navbar-nav {
+    background-color: rgba(0, 0, 0, 0.0)
+}
+
+.navbar-light .navbar-nav .nav-link {
+    text-transform: uppercase;
+    color: white;
+}
+
+.navbar-light .navbar-nav .nav-link:hover {
+    color: #0ed8d6;
+}
+
+section#section-navbar-menu {
+    background-image: url(img/header/pictures_on_the_wall.jpg);
+    height: 102vh;
+}
+
+.navbar-light .navbar-nav .nav-link:scroll {
+    color: 0ed8d6;
+}
