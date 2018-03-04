@@ -1,0 +1,21 @@
+#main-header {
+	background-color: aqua;
+    height: 100vh;
+}
+
+.item {
+    background-color: darkgoldenrod;    
+}
+
+.item:nth-child(2) {
+    background-color: gray;
+}
+
+.item:nth-child(3) {
+    background-color: gold;
+}
+
+#btn-click {
+	background-color: darkblue;
+    border: 5px solid gold;
+}

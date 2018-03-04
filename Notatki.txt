@@ -1,1 +1,2 @@
 1. stworzyæ pe³ne menu z krzysztofem jako szablon.
+2. zobaczyæ specyfikacje klas grid-system
