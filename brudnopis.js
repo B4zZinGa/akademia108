@@ -1,8 +1,9 @@
 'use strict';
 $(function () {
 
-    $('button').onclick(function () {
-        console.log('test')
-    });
+	$('button').onclick(function () {
+		console.log('test')
+	});
 
 });
+	

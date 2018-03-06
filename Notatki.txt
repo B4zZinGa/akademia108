@@ -1,2 +1,11 @@
 1. stworzyæ pe³ne menu z krzysztofem jako szablon.
 2. zobaczyæ specyfikacje klas grid-system
+
+
+
+
+
+pytania: 
+
+dlaczego przy ma³ej szerokoœci jest wiêksza przerwa po prawej stronie - jan nowak
+
