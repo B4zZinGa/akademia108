@@ -9,3 +9,8 @@ pytania:
 
 dlaczego przy ma³ej szerokoœci jest wiêksza przerwa po prawej stronie - jan nowak
 
+Jak zablokowaæ ratio zdjêci¹. Jak uzale¿niæ wysokoœæ od szerokoœci?
+
+przy niskiej rozdzielczoœci zacz¹³ siê pojawiaæ pasek przy 200px po³owa jest bia³a :|
+
+https://amplusfoods.com/firma/#misja przyk³ad ze scrollem i zdjêciem w tle(buraki)
